@@ -7,4 +7,4 @@ pipe = StableDiffusionPipeline.from_pretrained(model_path, torch_dtype=torch.flo
 pipe.to("cuda")
 
 image = pipe(prompt="enter your prompt here").images[0]
-image.save("cafe3.png")
+image.save("samplepic.png")
